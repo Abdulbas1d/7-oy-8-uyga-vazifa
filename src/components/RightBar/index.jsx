@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 
-function Header() {
+function RightBar() {
   return (
     <div>
       
@@ -9,4 +9,4 @@ function Header() {
   )
 }
 
-export default Header
+export default RightBar
