@@ -1,0 +1,78 @@
+.container-rightBar {
+    padding-top: 29px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    gap: 10px;
+
+    .friend {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25.3px;
+        letter-spacing: 0.7px;
+        color: rgba(204, 204, 204, 1);
+    }
+
+    .one {
+        margin-left: 35px;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .two {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+.text-rigtbar {
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(204, 204, 204, 1);
+    margin-top: 39px;
+}
+
+.humans {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 28px;
+
+    .human {
+        display: flex;
+        gap: 20px;
+    }
+}
+
+.text-two {
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(204, 204, 204, 1);
+    margin-top: 28px;
+}
+
+.buttonRight {
+    width: 223px;
+    height: 62px;
+    margin-left: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.77px;
+    letter-spacing: 14%;
+    color: rgba(23, 23, 23, 1);
+    margin-top: 23px;
+}

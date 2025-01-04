@@ -1,0 +1,134 @@
+.container-leftBar {
+    padding-top: 70px;
+    padding-left: 30px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .homelink {
+        display: flex;
+        gap: 20px;
+        text-decoration: none;
+
+        img {
+            width: 32px;
+            height: 32px;
+        }
+
+        .home {
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 22.77px;
+            color: rgba(255, 255, 255, 1);
+            margin-top: 5px;
+        }
+    }
+
+    .search {
+        width: 232px;
+        height: 32px;
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+        opacity: 70%;
+
+        img {
+            width: 28px;
+            height: 29px;
+            cursor: pointer;
+        }
+
+        .searche {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22.77px;
+            letter-spacing: 0.4px;
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+
+    .library {
+        width: 232px;
+        height: 32px;
+        display: flex;
+        gap: 20px;
+        margin-top: 22px;
+        opacity: 70%;
+
+        img {
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+        }
+
+        .librarye {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22.77px;
+            letter-spacing: 0.4px;
+            margin-top: 3px;
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+
+    .link {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 49px;
+
+        .create {
+            display: flex;
+            gap: 20px;
+            opacity: 70%;
+
+            img {
+                width: 32px;
+                height: 32px;
+                cursor: pointer;
+            }
+
+            .create {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22.77px;
+                letter-spacing: 0.4px;
+                margin-top: 1px;
+                color: rgba(255, 255, 255, 1);
+            }
+        }
+
+        .like {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-decoration: none;
+
+            img {
+                width: 32px;
+                height: 32px;
+                cursor: pointer;
+                border-radius: 4px;
+            }
+
+            .likes {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22.77px;
+                letter-spacing: 0.8px;
+                margin-top: 3px;
+                color: rgba(255, 255, 255, 1);
+            }
+        }
+    }
+
+    .hr {
+        width: 250px;
+        color: rgba(40, 40, 40, 1);
+        background-color: rgba(40, 40, 40, 1);
+    }
+}
