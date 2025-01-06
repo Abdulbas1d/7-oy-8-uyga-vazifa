@@ -132,3 +132,22 @@
         background-color: rgba(40, 40, 40, 1);
     }
 }
+
+.playlists {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    a {
+        text-decoration: none;
+        letter-spacing: 0.2px;
+        font-size: 20px;
+        font-weight: 450;
+        color: #fff;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}

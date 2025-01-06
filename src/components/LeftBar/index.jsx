@@ -37,6 +37,22 @@ function LeftBar() {
 
         <hr className='hr' />
       </div>
+
+      <div className="playlists">
+        <a href="/">Chill Mix</a>
+        <a href="/">Insta Hits</a>
+        <a href="/">Your Top Songs 2021</a>
+        <a href="/">Mellow Songs</a>
+        <a href="/">Anime Lofi & Chillhop Music</a>
+        <a href="/">BG Afro “Select” Vibes</a>
+        <a href="/">Afro “Select” Vibes</a>
+        <a href="/">Happy Hits!</a>
+        <a href="/">Deep Focus</a>
+        <a href="/">Instrumental Study</a>
+        <a href="/">OST Compilations</a>
+        <a href="/">Nostalgia for old souled mill...</a>
+        <a href="/">Mixed Feelings</a>
+      </div>
     </div>
   )
 }
